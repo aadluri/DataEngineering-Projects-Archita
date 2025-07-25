@@ -1,0 +1,13 @@
+Some working notes while building this project:
+
+
+Plan: 
+[OpenWeatherMap API]->
+[ETL Script: Python]->
+[PostgreSQL or SQLite]->
+[Daily Script → Generates Text]->
+[Sends Snapshot via SMS (Twilio)]
+
+Optiional , upload to aws s3, use airflow? 
+Run locally using cron b/c who is paying
+
